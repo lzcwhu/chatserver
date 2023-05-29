@@ -8,3 +8,11 @@
              与非好友id直接聊天的消息反馈
              加入一个不存在的群聊和重复加群的消息反馈
              添加好友时使用户id和friendid互为好友
+
+编译方式：
+cd build
+rm -rf *
+cmake ..
+make
+
+需要安装nginx、redis
